@@ -136,7 +136,7 @@
     color: #000000;
 }
 .subtitle__item {
-    background: url("/img/tick.svg") left no-repeat;
+    background: url("../img/tick.svg") left no-repeat;
     padding-left: 28px;
 }
 .sandwell__prices {
@@ -218,7 +218,7 @@
 }
 
 .depth__item {
-    background: url("/img/Vector.svg") left no-repeat;
+    background: url("../img/Vector.svg") left no-repeat;
     padding-left: 15px;
     padding-top: 8px;
     font-family: Arial;
@@ -265,6 +265,10 @@
   border-radius: 6px;
 }
 
+.depth__information:hover, .artesianwell__information:hover, .mgbuwell__information:hover{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: all 0.4s ease 0s;
+}
 .information__link{
     font-family: Arial;
     font-style: normal;
