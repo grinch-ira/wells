@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  input::-ms-clear {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+/*     min-width: 1200px; */
+  }
+  
+  /*Конец обнуления*/
+.wrapper {
+    max-width: 928px;
+/*     margin: 10px auto 0 auto; */
+}
+.wells__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sandwell {
+    flex: 1 1 33.3%;
+    border: 1px  solid #0D274D;    
+}
+.sandwell__title {
+}
+.title {
+    text-align: center;
+    padding: 15px 0;
+    background: #0D274D;
+}
+.title p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 137%;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    padding: 14px 0 0 16px;
+}
+.sandwell__subtitle{
+    padding-bottom:28px ;
+}
+
+.artesianwell__subtitle{
+    padding-bottom:49px ;
+}
+
+.mgbuwell__subtitle{
+    padding-bottom: 27px;
+}
+.subtitle__list {
+}
+
+.list {
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 140%;
+    color: #000000;
+}
+.subtitle__item {
+    background: url("/img/tick.svg") left no-repeat;
+    padding-left: 28px;
+}
+.sandwell__prices {
+}
+.prices {
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 140%;
+
+}
+.sandwell__about_price {
+}
+.dbout {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #0E9A0B;
+}
+
+.dbout span{
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+}
+.blue__line {
+    display: block;
+    width: 238px;
+    height: 1px;
+    background-color: #00BCED;
+}
+
+.sandwell__line{
+    margin: 47px auto 14px auto;
+}
+.artesianwell__line{
+    margin: 47px auto 12px auto;
+}
+.mgbuwell__line{
+    margin: 18px auto 14px auto;
+}
+.sandwell__depth {
+  display: block;
+  height: 85px;
+/*   margin-bottom: 25px; */
+}
+
+.artesianwell__depth{
+  display: block;
+  height: 55px;
+}
+
+.mgbuwell__depth{
+  display: block;
+  height: 85px;
+}
+
+.depth li{
+  display:block;
+  float:left;
+  width:49%;
+}
+
+.depth{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+.depth {
+}
+.depth__list {
+    padding-left: 17px;
+}
+
+.depth__item {
+    background: url("/img/Vector.svg") left no-repeat;
+    padding-left: 15px;
+    padding-top: 8px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 131%;
+    text-decoration-line: underline;
+
+}
+.depth__item:hover{
+    color: #00BCED;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button__information {
+
+
+}
+
+.depth__information {
+    display: block;
+    margin: 25px auto 17px auto;
+    width: 250px;
+    height: 46px;
+    background: #00BCEB;
+    border-radius: 6px;
+}
+.artesianwell__information{
+  display: block;
+  margin: 56px auto 17px auto;
+  width: 250px;
+  height: 46px;
+  background: #00BCEB;
+  border-radius: 6px;
+}
+
+.mgbuwell__information{
+  display: block;
+  margin: 25px auto 17px auto;
+  width: 250px;
+  height: 46px;
+  background: #00BCEB;
+  border-radius: 6px;
+}
+
+.information__link{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 117%;    
+    color: #FFFFFF;
+}
+.artesianwell {
+    flex: 1 1 33.3%;
+    border: 1px solid #0D274D;   
+}
+.artesianwell__title {
+}
+.artesianwell__subtitle {
+}
+.artesianwell__prices {
+}
+.artesianwell__depth {
+}
+.mgbuwell {
+    flex: 1 1 33.3%;
+    border: 1px solid #0D274D;   
+}
+.mgbuwell__title {
+}
+.mgbuwell__subtitle {
+}
+.mgbuwell__prices {
+}
+.mgbuwell__depth {
+}
+
+
+@media (max-width: 797px) {
+  .artesianwell__subtitle {
+    padding-bottom: 28px;
+}
+
+}
+
+
+@media (max-width: 755px) {
+  .artesianwell__subtitle {
+    padding-bottom: 49px;
+}
+
+}
+
+
+@media (max-width: 530px) {
+  .artesianwell__subtitle {
+    padding-bottom: 28px;
+}
+
+}
